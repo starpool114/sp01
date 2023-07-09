@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WETA | Minecraft</title>
+    <link rel="stylesheet" href="Navigation barType.css">
+    <link rel="stylesheet" href="drop-down menuType.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+<ul>
+    <li><a class="active" href="#home">主页</a></li>
+    <li><a href="#news">帖子</a></li>
+    <li><a href="#about">关于我们</a></li>
+    <li><a href="#contant">联系我们</a></li>
+    <li><a href="#login">登录</a></li>
+</ul>
+    <div style="display: flex;margin: 0;width: auto;height: 500px;background:url(https://pic2.imgdb.cn/item/646060910d2dde577763ac8e.png);background-position: center center;flex-direction: column;flex: 1;">
+        <h1 style="color:rgb(131, 120, 142);margin-top:200px;text-align: center;font-size: 50px;">WETA | Minecraft</h1>
+        <h4 style="color:rgb(68, 62, 73);text-align: center;">WETA生态园旗下Minecraft服务器</h4>
+    </div>
+    <div style="display: flex;margin-left: 10px;margin-right: 10px;width: auto;height: auto;background-color: white;flex-direction: column;flex: 2;">
+        <h1 style="text-align: center;">服务器简介</h1>
+        <h3 style="display: flex;flex-direction: column;justify-content: center;align-items: center;margin-left: 50px;">WETA | Minecraft是WETA生态园旗下游戏服务器，服务器主打玩法为原版创造，玩家可以在此服务器中享受建造所带来的乐趣，留下美好回忆。
+            <p></p>
+            <script>
+                var p=""
+                var time=new Date().getHours()
+                let timeNow=new Date().getHours();
+
+                 if(timeNow >= 7 ){
+                    p="<i>维护</i>"
+                }
+                else if (timeNow >= 23 ){
+                    p="<i>运行</i>"
+                }
+                /* 伪状态显示 */
+
+                document.write("<i>服务器运行状态为</i>"+p)
+            </script>
+            <br>
+            服务器玩家气氛很好，管理经常在线，开放时间为2023/6/23——2023/8/1,服务器每日维护时间为23:00——7:00
+        </h3>
+    </div>
+</body>
+</html>
